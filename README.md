@@ -5,6 +5,7 @@ Steps to reproduce:
 - Check out this repo
 
     `git clone https://github.com/ajbozarth/libexpl.git`
+    
     `cd libexpl`
 
 - Install Jupyterlab 3.0
@@ -14,15 +15,21 @@ Steps to reproduce:
 - Install lib package
 
     `cd mylibrary`
+    
     `jlpm`
+    
     'jlpm build`
+    
     `jupyter labextension link --no-build .`
 
 - Install extension
 
     `cd ../myextension`
+    
     `jlpm`
+    
     'jlpm build`
+    
     `jupyter labextension install .`
 
 - Note the error on the final step
