@@ -18,7 +18,7 @@ Steps to reproduce:
     
     `jlpm`
     
-    'jlpm build`
+    `jlpm build`
     
     `jupyter labextension link --no-build .`
 
@@ -28,7 +28,7 @@ Steps to reproduce:
     
     `jlpm`
     
-    'jlpm build`
+    `jlpm build`
     
     `jupyter labextension install .`
 
